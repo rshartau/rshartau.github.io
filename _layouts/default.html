@@ -8,7 +8,7 @@
     /* Simple navigation bar styles */
     nav {
       background-color: #0066cc;
-      padding: 15px;
+      padding: 10px;
       text-align: center;
     }
     nav a {
@@ -21,6 +21,13 @@
     nav a:hover {
       text-decoration: underline;
     }
+
+    main {
+      padding: 40px;
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+    }
   </style>
 </head>
 <body>
@@ -29,7 +36,6 @@
     <a href="{{ '/about.md' | relative_url }}">About</a>
     <a href="{{ '/projects.md' | relative_url }}">Projects</a>
     <a href="{{ '/contact.md' | relative_url }}">Contact</a>
-
   </nav>
 
   <main>
